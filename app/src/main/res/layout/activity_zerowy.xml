@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Samsung Galaxy Note"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="159dp"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/zerowy"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:text="Specyfikacja sprzętowa:\n\n
+- ekran 5,3 cala Super AMOLED HD 800 x 1280;\n
+- dwurdzeniowy procesor Cortex A9 1,4 GHz z układem graficznym Mali 400;\n
+- 1 GB RAM-u; 16/32 GB wbudowanej pamięci;\n
+- łączność HSDPA 21 Mbps, HSUPA 5,76 Mbps;\n
+- aparat 8 Mpix z autofokusem, diodą LED, stabilizacją obrazu, wykrywaniem twarzy i uśmiechu;\n
+- nagrywanie filmów w rozdzielczości 1080p;\n
+- wymiary: 146,9 x 83 x 9,7 mm, waga: 178 g;\n
+- bateria 2500 mAh." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Powrót"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</ScrollView>

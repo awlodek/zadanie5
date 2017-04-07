@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Samsung Galaxy Nexus"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="159dp"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/pierwszy"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:text="Specyfikacja sprzętowa:\n\n
+- dwurdzeniowy układ TI OMAP4460 o taktowaniu 1,2 GHz, GPU PowerVR SGX540;\n
+- 4,65-calowy ekran Super AMOLED HD o rozdzielczości 1280 x 720;\n
+- aparat 5 Mpix z autofokusem, diodą doświetlającą LED;\n
+- kamerka 1,3 Mpix do wideorozmów;\n
+- nagrywanie/odtwarzanie wideo w jakości 1080p;\n
+- Bluetooth 3.0;\n
+- USB 2.0;\n
+- Wi-Fi 802.11 a/b/g/n (2.4 GHz/5 GHz);\n
+- NFC, GPS z A-GPS;\n
+- 1 GB pamięci RAM;\n
+- 16 GB / 32 GB pamięci flash;\n
+- wymiary: 135,5 x 67,94 x 8,94 mm;\n
+- waga: 135 g;\n
+- bateria Li-Ion o pojemności 1750 mAh." />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Powrót"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</ScrollView>

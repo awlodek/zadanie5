@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="model">
+        <item>Samsung Galaxy Note</item>
+        <item>Samsung Galaxy Nexus</item>
+        <item>LG Swift</item>
+    </string-array>
+</resources>
